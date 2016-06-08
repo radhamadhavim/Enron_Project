@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #EFF5FB;
+  margin-left: 2cm;
+}
+.header-cont {
+    width:74%;
+    position:fixed;
+    top:0px;
+    background:#0101DF;
+    border:1px solid #CCC;
+}
+
+.header-cont h1{
+    font-family: 'Oswald', sans-serif;
+  	font-size: 3em;
+  	color: #fff;
+  	text-align: center;
+}
+
+.header-cont p{
+    font-family: 'Oswald', sans-serif;
+  	font-size: 1.5em;
+  	color: #fff;
+  	font-weight:bold;
+}
+
+.message{
+    font-family: 'Oswald', sans-serif;
+  	font-size: 1.5em;
+  	color: black;
+  	font-weight:bold;
+}
+
+.search-fields{
+    font-family: 'Oswald', sans-serif;
+  	font-size: 1.2em;
+  	font-weight:bold;
+  	color: black;
+  	text-align: center;
+}
+
+.input-fields{
+    font-family: 'Oswald', sans-serif;
+  	font-size: 1.2em;
+  	font-weight:bold;
+  	color: black;
+  	text-align: justify;
+}
+ 
+.nav ul {
+  list-style: none;
+  background-color: #444;
+  text-align: center;
+  padding: 0;
+  margin: 0;  
+}
+.nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  width: 100px;
+  border-bottom: 1px solid #888;
+}
+
+.button {
+  font-family: Oswald;
+  background-color:#088A08;
+  color: #ffffff;
+  font-size: 25px;  
+  font-weight:bold;  
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+}
+ 
+.nav a:hover {
+  background-color: #005f5f;
+}
+ 
+.nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+ 
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 250px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+ 
+  /* Option 1 - Display Inline */
+  .nav li {
+    display: inline-block;
+    margin-right: -4px;
+  }
+  
+  .image {
+    height: 10em;
+    position: relative }
+  .image img {
+    margin: 0;
+    position: absolute;
+    top: 200%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
+ 
+  /* Options 2 - Float
+  .nav li {
+    float: left;
+  }
+  .nav ul {
+    overflow: auto;
+    width: 600px;
+    margin: 0 auto;
+  }
+  .nav {
+    background-color: #444;
+  }
+  */
+}
