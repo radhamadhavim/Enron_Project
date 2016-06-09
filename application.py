@@ -16,8 +16,7 @@ def predict():
     predicted_emails ={}
     result = To_From_dynamo.cc_prediction(From_user, TO_USER)
     predicted_emails['predictions']=result
-    return render_template('index.html');
-    #return jsonify(predicted_emails)
+    return jsonify(predicted_emails)
 
 
 @application.route('/')
